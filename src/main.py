@@ -11,6 +11,7 @@ ALLOWED_EXTENSIONS = {'txt', 'pdf'}
 TEMP_DIR = pathlib.Path(TemporaryDirectory().name)
 TEMP_DIR.mkdir(parents=True, exist_ok=True)
 
+#need to understan the code first
 
 def allowed_file(filename):
     return '.' in filename and \
